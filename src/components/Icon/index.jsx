@@ -6,14 +6,13 @@ const IconStyle = styled.img`
     border-radius:100%;
 
     max-width: 96px;
-    height: 100%;
 
     margin: 16px;
 `
 
-const Icon = () => {
+const Icon = ({...props}) => {
     return(
-        <IconStyle src={props.sprite} />
+        <IconStyle src={props.src} alt={props.alt} />
     )
 }
 
