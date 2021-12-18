@@ -38,7 +38,7 @@ const Card = () => {
                 card.sprites &&
                 <React.Fragment>
                     <Icon src={card.sprites.front_default} alt={card.name} />
-                    <Text capitalize>{card.name}</Text>
+                    <Text capitalize >{card.name}</Text>
                 </React.Fragment>
             }
         </CardStyle>

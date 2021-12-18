@@ -5,13 +5,12 @@ const TextStyled = styled.p`
     font: normal normal normal 16px/20px Muli;
     letter-spacing: 0px;
     color: #263238;
-
-    //TO-DO: capitalizar texto passando props
+    text-transform: ${props => props.capitalize ? 'capitalize' : 'none'};
 `
 
 const Text = (props) => {
     return (
-        <TextStyled>{props.children}</TextStyled>
+        <TextStyled {...props}>{props.children}</TextStyled>
     )
 }
 
