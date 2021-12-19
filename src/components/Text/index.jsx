@@ -1,8 +1,8 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 const TextStyled = styled.p`
     text-align: center;
-    font: normal normal normal 16px/20px Muli;
+    font-size: 16px;
     letter-spacing: 0px;
     color: #263238;
     text-transform: ${props => props.capitalize ? 'capitalize' : 'none'};
