@@ -52,7 +52,7 @@ const CardButton = styled.a`
     }
 `
 
-const Card = () => {
+export const Card = () => {
     const [card, setCard] = useState({})
 
     const cardClick = () => {
@@ -82,5 +82,3 @@ const Card = () => {
         </CardStyle>
     )
 }
-
-export default Card

@@ -1,14 +1,12 @@
 import './App.css'
-import Card from './components/Card'
 import { Header } from './components/Header'
-import { Title } from './components/Title'
+import { Content } from './components/Content'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Title>Resultado da busca</Title>
-      <Card />
+      <Content />
     </div>
   )
 }
