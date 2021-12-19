@@ -14,14 +14,12 @@ const InputStyle = styled.input`
 
     color: #757575;
     text-align: left;
-    font: normal normal 300 24px/30px Muli;
+    font-size: 24px;
     letter-spacing: 0px;
 `
 
-const Input = () => {
+export const Input = () => {
     return (
         <InputStyle type="search" placeholder="Digite aqui sua busca..." />
     )
 }
-
-export default Input
